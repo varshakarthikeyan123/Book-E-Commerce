@@ -1,0 +1,4 @@
+- id: admin-service
+  uri: lb://ADMIN-SERVICE
+  predicates:
+    - Path=/api/admin/**
